@@ -1,0 +1,70 @@
+@import './variables.less';
+// Custom Theming for NG-ZORRO
+// For more information: https://ng.ant.design/docs/customize-theme/en
+@import "ng-zorro-antd/ng-zorro-antd.less";
+
+// Override less variables to here
+// View all variables: https://github.com/NG-ZORRO/ng-zorro-antd/blob/master/components/style/themes/default.less
+
+@primary-color: #009ccd;
+@success-color: #27ae60;
+@warning-color: #E79B38;
+@error-color: #ff4d4f;
+@font-family: 'Nunito Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+  'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+  'Noto Color Emoji';
+@text-color: #071C3B;
+@text-color-secondary: #4B6889;
+@border-radius-base: 4px;
+@border-radius-sm: 4px;
+@arrow-border-radius: 4px;
+@control-border-radius: 4px;
+@modal-border-radius: 12px;
+@card-radius: 12px;
+
+@page-header-padding: 0;
+@page-header-padding-vertical: 8px;
+
+.@{pageheader-prefix-cls} {
+  margin-top: -24px;
+}
+
+.ant-progress {
+  line-height: inherit;
+}
+
+
+@height-base: 32px;
+@height-lg: 48px;
+
+.text-primary {
+  color: @primary-color;
+}
+.text-secondary {
+  color: var(--neutral-600);
+}
+
+.@{form-prefix-cls}-vertical {
+  .@{form-item-prefix-cls}-required::before {
+    order: 1;
+    margin-inline-start: 0.15em;
+    margin-right: 0 !important;
+    font-family: inherit !important;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+  background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(#e1e4ed, 60%);
+  border-radius: 10px;
+  border: 2px solid #ffffff;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #e1e4ed;
+}

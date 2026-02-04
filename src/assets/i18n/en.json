@@ -1,0 +1,10 @@
+{
+  "SIDEBAR": {
+    "MENU": {
+      "ARM": "Doctor's ARM",
+      "LOGOUT": "Logout",
+      "EXPAND_SIDEBAR": "Expand sidebar",
+      "COLLAPSE_SIDEBAR": "Collapse sidebar"
+    }
+  }
+}
